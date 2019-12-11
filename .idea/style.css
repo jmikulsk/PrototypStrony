@@ -1,0 +1,120 @@
+body{
+    background-color: #303030;
+    margin: 0;
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+
+}
+.container{
+    display: flex;
+    width:100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.titleOfweb{
+    width:100%;
+    padding: 10px 0;
+}
+.logo{
+    width:220px;
+    font-size: 30px;
+    border: 1px solid #ffff;
+    margin-left:auto;
+    margin-right: auto;
+}
+.menu{
+    /*position: sticky;*/
+    display: flex;
+    /*flex-direction: row;*/
+    /*!*flex-wrap: wrap;*!*/
+    /*position: static;*/
+    justify-content: space-evenly;
+    /*height: 60px;*/
+    background-color: #303030;
+    /*width: 100%;*/
+    /*border-top: 1px solid crimson;*/
+    /*border-bottom: 1px solid crimson;*/
+    /*top:0;*/
+    width: 100%;
+    height: 60px;
+
+    position: sticky;
+    top: 0;
+    border: 2px solid crimson;
+
+
+}
+.menuItems{
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 400px;
+    margin: 5px;
+    min-width: 50;
+    box-shadow: 0 4px 8px 0 black;
+
+}
+.shop{
+    width: 100%;
+    height: 1000px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bodyshop{
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    min-height: 500px;
+    width: 1500px;
+    background-color: aliceblue;
+    border: 2px solid crimson;
+    justify-content: space-evenly;
+}
+.article{
+    height: 300px;
+    width: 300px;
+    background-color: darkgray;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 gray;
+    margin:20px;
+    margin-top: 50px;
+}
+.basket{
+    float: right;
+    width: auto;
+    background-color: #303030;
+    height: 100%;
+    min-height: 1200px;
+    min-width: 300px;
+    border: 2px solid crimson;
+    }
+#artykuły{
+
+    width:20%px;
+    font-size: 30px;
+    border: 1px solid #ffff;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: khaki;
+}
+.Title{
+    border: 1px solid #ffff;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: khaki;
+    text-align: center;
+}
+.box{
+    background-color: pink;
+    height: 50px;
+    width: 80%;
+    position: center;
+    margin: 5px;
+    margin-left: 30px;
+    margin-right: 10px;
+
+
+}
